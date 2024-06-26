@@ -1,0 +1,130 @@
+.room {
+    margin-left: 7rem;
+}
+
+.common-header {
+    padding: 5rem;
+    text-align: center;
+    color: rgba(238, 129, 255, 0.868);
+}
+
+.common-heading {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+
+.small-underline {
+    width: 9rem;
+    height: 0.1rem;
+    margin: 0 auto 1rem auto;
+    background-color: rgb(119, 211, 251);
+}
+
+.big-underline {
+    width: 20rem;
+    height: 0.1rem;
+    margin: auto;
+    background-color: rgb(119, 211, 251);
+}
+
+.room-card {
+    width: 40rem;
+    margin: 5rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.306);
+}
+
+.room-img {
+    width: 100%;
+}
+
+.room-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.room-card-content {
+    color: white;
+    padding: 2rem;
+}
+
+.room-card-heading {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.room-card-para {
+    font-size: 1.5rem;
+    color: rgb(255, 214, 255);
+}
+
+.room-price {
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: right;
+    margin: 0;
+}
+
+.room-card-btn {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border: 0.2rem solid rgb(126, 232, 249);
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    border-radius: 10rem;
+    color: wheat;
+}
+
+.room-btn-wrapper {
+    text-align: center;
+}
+
+.rooms-btn {
+    padding: 1.5rem 1rem;
+    width: 20rem;
+    margin: 4rem 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: rgb(227, 42, 227);
+    border: 0.2rem solid black;
+    outline: none;
+    box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, 0.434);
+    letter-spacing: 0.3em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.rooms-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width:500px) {
+    .common-heading {
+        font-size: 2rem;
+    }
+    .small-underline {
+        width: 5rem;
+    }
+    .big-underline {
+        width: 12rem;
+    }
+    .room-card-heading {
+        font-size: 1.5rem;
+    }
+    .room-price {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    .room-card-btn {
+        width: 12rem;
+        padding: 1rem 0.5rem;
+        font-size: 1rem;
+    }
+}

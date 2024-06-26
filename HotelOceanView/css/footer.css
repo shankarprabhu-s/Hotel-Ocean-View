@@ -1,0 +1,150 @@
+        .footer {
+            margin-left: 7rem;
+        }
+        
+        .main-part {
+            display: flex;
+            justify-content: space-between;
+            padding: 4rem;
+            background-color: rgba(0, 0, 0, 0.865);
+        }
+        
+        .footer-heading {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: blueviolet;
+            margin: 1rem 0 3rem 0;
+        }
+        
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-list-item {
+            margin-bottom: 2rem;
+        }
+        
+        .footer-list-link {
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: rgb(169, 183, 255);
+        }
+        
+        .contact p {
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            margin-bottom: 4rem;
+        }
+        
+        .footer-form {
+            display: flex;
+        }
+        
+        .footer-input {
+            width: 25rem;
+            padding: 1rem;
+            font-size: 1.8rem;
+            outline: none;
+        }
+        
+        .footer-btn {
+            padding: 1rem;
+            background-color: blue;
+            color: wheat;
+            border: none;
+        }
+        
+        .gallery {
+            max-width: 45rem;
+        }
+        
+        .img-wrapper {
+            width: 12rem;
+            margin: 0.4rem;
+            overflow: hidden;
+        }
+        
+        .footer-img {
+            width: 100%;
+            height: 100%;
+            transition: all 0.5s;
+        }
+        
+        .gallery-img {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .footer-img:hover {
+            transform: scale(1.3);
+            opacity: 0.8;
+        }
+        
+        .creator-part {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.468);
+            padding: 0 4rem;
+        }
+        
+        .copyright-text {
+            font-size: 2rem;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .text-right {
+            color: white;
+            margin: 0.5rem;
+        }
+        
+        .text-right span {
+            color: yellow;
+        }
+        
+        .fa-heart {
+            color: red;
+        }
+        
+        @media(max-width:1400px) {
+            .main-part {
+                display: flex;
+                flex-direction: column;
+            }
+            .footer-list {
+                display: flex;
+            }
+            .footer-list-item {
+                margin-right: 3rem;
+            }
+        }
+        
+        @media (max-width:750px) {
+            .footer-list {
+                display: block;
+            }
+            .creator-part {
+                flex-direction: column;
+                text-align: center;
+            }
+            .copyright-text {
+                font-size: 1.2rem;
+                order: 1;
+            }
+        }
+        
+        @media (max-width:500px) {
+            .main-part {
+                padding: 2rem;
+            }
+            .footer-input {
+                width: 12rem;
+            }
+            .img-wrapper {
+                width: 9rem;
+            }
+        }

@@ -1,0 +1,85 @@
+.customer {
+    margin-left: 7rem;
+    padding-bottom: 7rem;
+    background-color: rgba(0, 0, 0, 0.986);
+}
+
+.customer-para {
+    font-size: 1.8rem;
+    color: rgb(247, 248, 248);
+    text-align: center;
+    width: 50%;
+    margin: 2rem auto 8rem auto;
+}
+
+.customer-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.customer-card {
+    display: flex;
+    background-color: white;
+    width: 60rem;
+}
+
+.customer-info {
+    padding: 0 2rem;
+}
+
+.customer-image {
+    width: 10rem;
+    margin-left: -1.3rem;
+}
+
+.customer-image-wrapper {
+    margin: auto 0;
+}
+
+.customer-name {
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+
+.customrt-para-1 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: black;
+}
+
+.customrt-para-2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: black;
+}
+
+@media (max-width:1400px) {
+    .customer-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer-card:first-child {
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:750px) {
+    .customer-card {
+        flex-direction: column;
+        width: 20rem;
+    }
+    .customer-image {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .customer-para {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+}
